@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Styles for the container */
+    .typewriter-container {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    /* Styles for the typewriter text */
+    .typewriter-text {
+      display: inline-block;
+      overflow: hidden;
+      border-right: 0.15em solid #31304D; /* Adjust the border style as needed */
+      white-space: nowrap;
+      margin: 0;
+      letter-spacing: 0.1em; /* Adjust the letter spacing as needed */
+      animation:
+        typing 3s steps(40, end), /* Adjust the duration as needed */
+        blink-caret 0.75s step-end infinite;
+    }
+
+    /* Typing animation keyframes */
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    /* Blinking caret animation keyframes */
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #31304D; } /* Adjust the color as needed */
+    }
+  </style>
+</head>
+<body>
+  <div class="typewriter-container">
+    <p class="typewriter-text">Your typewriter text goes here.</p>
+  </div>
+</body>
+</html>
