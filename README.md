@@ -36,3 +36,7 @@ This project implements a set of RESTful APIs for a blogging website, facilitati
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
 
 Feel free to customize this template further to include specific instructions, usage examples, or additional details about your project!
+
+![Image1](./WebsitePhotos/sPOTIFY%20+%20blogweb.png)
+![Image2](./WebsitePhotos/sPOTIFY%20+%20blogweb%20(1).png)
+
